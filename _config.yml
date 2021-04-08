@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo1
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
+title: 海螺菇凉
+subtitle: '时光不再，只恨匆匆'
+description: '铭记过去，拥抱未来，心中有梦，眼里有光'
+keywords: 编程、电影、音乐、摄影、安静
+author: 阿猫
+language: zh-CN
 timezone: ''
 
 # URL
@@ -43,13 +43,23 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+#highlight:
+#  enable: true
+#  line_number: true
+#  auto_detect: false
+#  tab_replace: ''
+#  wrap: true
+#  hljs: false
 highlight:
   enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace: ''
-  wrap: true
-  hljs: false
+# 代码高亮
+prism_plugin:
+  mode: 'preprocess' # realtime/preprocess
+  theme: 'tomorrow'
+  line_number: false # default false
+  custom_css:
+
+
 prismjs:
   enable: false
   preprocess: true
@@ -68,7 +78,14 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  编程: programming
+  生活: life
+  阅读: reading
+  随想: thoughts
+  理财: finance
 tag_map:
+  敏捷开发: agile-development
+  环境搭建: environment-building
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
@@ -97,11 +114,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: matery
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  # repo: git@github.com:poisonsky/blog.git
+#  repo: git@github.com:poisonsky/blog.git
   branch: gh-pages
