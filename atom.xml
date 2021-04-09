@@ -3,11 +3,11 @@
   <title>海螺菇凉</title>
   
   <subtitle>时光不再，只恨匆匆</subtitle>
-  <link href="https://poisonsky.github.io/atom.xml" rel="self"/>
+  <link href="https://poisonsky.github.io/blog/atom.xml" rel="self"/>
   
-  <link href="https://poisonsky.github.io/"/>
-  <updated>2021-04-09T08:37:23.420Z</updated>
-  <id>https://poisonsky.github.io/</id>
+  <link href="https://poisonsky.github.io/blog/"/>
+  <updated>2021-04-09T08:59:18.381Z</updated>
+  <id>https://poisonsky.github.io/blog/</id>
   
   <author>
     <name>阿猫</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://poisonsky.github.io/2021/04/09/hello-world/"/>
-    <id>https://poisonsky.github.io/2021/04/09/hello-world/</id>
-    <published>2021-04-09T08:37:23.420Z</published>
-    <updated>2021-04-09T08:37:23.420Z</updated>
+    <link href="https://poisonsky.github.io/blog/2021/04/09/hello-world/"/>
+    <id>https://poisonsky.github.io/blog/2021/04/09/hello-world/</id>
+    <published>2021-04-09T08:59:18.381Z</published>
+    <updated>2021-04-09T08:59:18.381Z</updated>
     
     
       
@@ -34,12 +34,12 @@
     
     
     
-    <category term="Markdown" scheme="https://poisonsky.github.io/categories/Markdown/"/>
+    <category term="Markdown" scheme="https://poisonsky.github.io/blog/categories/Markdown/"/>
     
     
-    <category term="Typora" scheme="https://poisonsky.github.io/tags/Typora/"/>
+    <category term="Typora" scheme="https://poisonsky.github.io/blog/tags/Typora/"/>
     
-    <category term="Markdown" scheme="https://poisonsky.github.io/tags/Markdown/"/>
+    <category term="Markdown" scheme="https://poisonsky.github.io/blog/tags/Markdown/"/>
     
   </entry>
   
