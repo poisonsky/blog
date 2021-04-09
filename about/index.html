@@ -294,7 +294,17 @@
 
 
 
+<div class="statis">
+    <span class="count"><a href="/blog/categories">1</a></span>
+    <span class="name">分类</span>
+</div>
 
+
+
+<div class="statis">
+    <span class="count"><a href="/blog/tags">2</a></span>
+    <span class="name">标签</span>
+</div>
 
 
                     </div>
@@ -314,12 +324,22 @@
 
 
 
+<div class="statis">
+    <span class="count"><a href="/blog/categories">1</a></span>
+    <span class="name">分类</span>
+</div>
 
+
+
+<div class="statis">
+    <span class="count"><a href="/blog/tags">2</a></span>
+    <span class="name">标签</span>
+</div>
 
 
                                 </div>
                                 <div class="title">阿猫</div>
-                                <div class="career">Software Engineer</div>
+                                <div class="career">软件工程师</div>
                                 <div class="social-link hide-on-large-only" data-aos="zoom-in-left">
                                     
     <a href="https://github.com/poisonsky" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
@@ -498,7 +518,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [],
+                data: [{"name":"Markdown","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -522,7 +542,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: []
+                data: ["Typora","Markdown"]
             }
         ],
         yAxis: [
@@ -535,7 +555,7 @@
                 type: 'bar',
                 color: ['#82d3f4'],
                 barWidth : 18,
-                data: [],
+                data: [1,1],
                 markPoint: {
                     symbolSize: 45,
                     data: [{
