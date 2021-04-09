@@ -123,38 +123,18 @@ deploy:
 #  repo: git@github.com:poisonsky/blog.git
   branch: gh-pages
 
-# menu
-menu:
-  Index:
-    url: /
-    icon: fas fa-home
-  Tags:
-    url: /tags
-    icon: fas fa-tags
-  Categories:
-    url: /categories
-    icon: fas fa-bookmark
-  Archives:
-    url: /archives
-    icon: fas fa-archive
-  About:
-    url: /about
-    icon: fas fa-user-circle-o
-  Friends:
-    url: /friends
-    icon: fas fa-address-book
-  Medias:
-    icon: fas fa-list
-    children:
-      - name: Music
-        url: /music
-        icon: fas fa-music
-      - name: Movies
-        url: /movies
-        icon: fas fa-film
-      - name: Books
-        url: /books
-        icon: fas fa-book
-      - name: Galleries
-        url: /galleries
-        icon: fas fa-image
+# search
+search:
+  path: search.xml
+  field: post
+# pinyin
+permalink_pinyin:
+  enable: true
+  separator: '-' # default: '-'
+# 添加emoji表情支持
+githubEmojis:
+  enable: true
+  className: github-emoji
+  inject: true
+  styles:
+  customEmojis:
